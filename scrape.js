@@ -34,7 +34,7 @@ async function scrape() {
         client.messages.create({
             body: "the price of ${product.name} went below ${price}. Purchase at ${product.link}",
             from: "+18554808872",
-            to: '+18322107167'
+            to: '+18323107168'
         })
         .then((message) => {
             console.log(message);
